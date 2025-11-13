@@ -1,0 +1,9 @@
+# Example settings for the Realtor.com Agents by Zip Code Scraper.
+# Copy this file to config/settings.yaml and adjust as needed.
+
+base_url: "https://www.realtor.com/realestateagents"
+rate_limit_rpm: 30  # Maximum number of HTTP requests per minute
+user_agent: null    # Optionally override via .env or CLI
+cookie: null        # KP_UIDz-ssn cookie, if you want to reduce blocking
+trial_limit: 5      # Limit for trial runs; set to null for full runs
+output_dir: "data"
