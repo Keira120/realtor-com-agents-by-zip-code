@@ -1,0 +1,2 @@
+# Sample User-Agent strings for testing.
+# You can copy one of these into your .env as USER_AGENT or pass via --user-agent.
