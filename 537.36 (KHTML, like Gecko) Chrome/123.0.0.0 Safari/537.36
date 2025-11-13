@@ -1,0 +1,5 @@
+# Trial limit for agents (total across all zip codes). Set to empty or remove for no limit.
+TRIAL_LIMIT=5
+
+# Optional: override output directory (relative to project root or absolute)
+# OUTPUT_DIR=data
